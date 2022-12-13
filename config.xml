@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget id="com.upnvjt.edulaga" version="1.0.0" android-versionCode="1000000" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+	<name>EduLaGa</name>
+	<description>Sebuah game edukasi berbasis belanegara</description>
+	<author email="abdimas.upn@gmail.com" href="http://www.upnjatim.ac.id">Tim Abdimas UPNVJT</author>
+	<content src="index.html" />
+	<icon src="icon-512.png" />
+	<allow-intent href="http://*/*" />
+	<allow-intent href="https://*/*" />
+	<allow-navigation href="https://*/*" />
+	<allow-navigation href="blob:*" />
+	<plugin name="cordova-plugin-fullscreen" />
+	<preference name="orientation" value="landscape" />
+	<preference name="fullscreen" value="true" />
+	<preference name="DisallowOverscroll" value="true" />
+	<preference name="LoadUrlTimeoutValue" value="120000" />
+	<access origin="*" />
+	<preference name="SplashScreen" value="none"/>
+	<preference name="AutoHideSplashScreen" value="true" />
+	<preference name="ShowSplashScreenSpinner" value="false" />
+	<engine name="android" spec="11.0.0" />
+	<platform name="android">
+		<icon density="ldpi" src="icon-16.png" />
+		<icon density="mdpi" src="icon-32.png" />
+		<icon density="hdpi" src="icon-64.png" />
+		<icon density="xhdpi" src="icon-128.png" />
+		<icon density="xxhdpi" src="icon-256.png" />
+		<icon density="xxxhdpi" src="icon-512.png" />
+		<preference name="android-minSdkVersion" value="22" />
+		<preference name="android-targetSdkVersion" value="32" />
+	</platform>
+</widget>

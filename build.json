@@ -1,0 +1,18 @@
+{
+    "android": {
+        "debug": {
+            "keystore": "./edulaga.jks",
+            "storePassword": "EduLaga",
+            "alias": "edulaga",
+            "password" : "EduLaga",
+            "keystoreType": "jks"
+        },
+        "release": {
+            "keystore": "./edulaga.jks",
+            "storePassword": "EduLaga",
+            "alias": "edulaga",
+            "password" : "EduLaga",
+            "keystoreType": "jks"
+        }
+    }
+}

@@ -1,0 +1,21 @@
+{
+	"name": "EduLaGa",
+	"private": true,
+	"dependencies": {
+		"cordova-plugin-add-swift-support": "^2.0.2"
+	},
+	"devDependencies": {
+		"cordova-ios": "^6.2.0",
+		"cordova-plugin-inappbrowser": "^5.0.0",
+		"cordova-plugin-statusbar": "^3.0.0"
+	},
+	"cordova": {
+		"platforms": [
+			"ios"
+		],
+		"plugins": {
+			"cordova-plugin-inappbrowser": {},
+			"cordova-plugin-statusbar": {}
+		}
+	}
+}

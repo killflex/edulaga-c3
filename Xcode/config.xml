@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget id="com.upnvjt.edulaga" version="1.0.0.0" android-versionCode="1000000" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+	<name>EduLaGa</name>
+	<description>Sebuah game edukasi berbasis belanegara</description>
+	<author email="abdimas.upn@gmail.com" href="http://www.upnjatim.ac.id">Tim Abdimas UPNVJT</author>
+	<allow-intent href="http://*/*" />
+	<allow-intent href="https://*/*" />
+	<allow-navigation href="https://*/*" />
+	<allow-navigation href="blob:*" />
+	<plugin name="cordova-plugin-inappbrowser" />
+	<plugin name="cordova-plugin-statusbar" />
+	<preference name="orientation" value="landscape" />
+	<preference name="fullscreen" value="false" />
+	<preference name="DisallowOverscroll" value="true" />
+	<preference name="LoadUrlTimeoutValue" value="120000" />
+	<access origin="*" />
+	<preference name="AutoHideSplashScreen" value="false" />
+	<preference name="ShowSplashScreenSpinner" value="false" />
+	<engine name="ios" spec="6.2.0" />
+	<platform name="ios">
+		<preference name="scheme" value="app" />
+		<preference name="hostname" value="localhost" />
+		<preference name="AllowInlineMediaPlayback" value="true" />
+		<preference name="PreferredContentMode" value="mobile" />
+		<preference name="deployment-target" value="12.0" />
+		<splash src="www/icons/default@2x~universal~anyany.png" />
+	</platform>
+</widget>

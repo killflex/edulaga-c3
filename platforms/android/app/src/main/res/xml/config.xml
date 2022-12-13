@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget android-versionCode="1000000" id="com.upnvjt.edulaga" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <feature name="InAppBrowser">
+        <param name="android-package" value="org.apache.cordova.inappbrowser.InAppBrowser" />
+    </feature>
+    <feature name="AndroidFullScreen">
+        <param name="android-package" value="com.mesmotronic.plugins.FullScreenPlugin" />
+    </feature>
+    <name>EduLaGa</name>
+    <description>Sebuah game edukasi berbasis belanegara</description>
+    <author email="abdimas.upn@gmail.com" href="http://www.upnjatim.ac.id">Tim Abdimas UPNVJT</author>
+    <content src="index.html" />
+    <icon src="icon-512.png" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-navigation href="https://*/*" />
+    <allow-navigation href="blob:*" />
+    <access origin="*" />
+    <icon density="ldpi" src="icon-16.png" />
+    <icon density="mdpi" src="icon-32.png" />
+    <icon density="hdpi" src="icon-64.png" />
+    <icon density="xhdpi" src="icon-128.png" />
+    <icon density="xxhdpi" src="icon-256.png" />
+    <icon density="xxxhdpi" src="icon-512.png" />
+    <preference name="loglevel" value="DEBUG" />
+    <preference name="orientation" value="landscape" />
+    <preference name="fullscreen" value="true" />
+    <preference name="DisallowOverscroll" value="true" />
+    <preference name="LoadUrlTimeoutValue" value="120000" />
+    <preference name="AutoHideSplashScreen" value="true" />
+    <preference name="ShowSplashScreenSpinner" value="false" />
+    <preference name="android-minSdkVersion" value="22" />
+    <preference name="android-targetSdkVersion" value="32" />
+</widget>

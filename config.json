@@ -1,0 +1,48 @@
+{
+	"id": "com.upnvjt.edulaga",
+	"version": "1.0.0.0",
+	"versionCode": "1000000",
+	"name": "EduLaGa",
+	"description": "Sebuah game edukasi berbasis belanegara",
+	"whitelist": [
+		"http://*/*",
+		"https://*/*"
+	],
+	"author": "Tim Abdimas UPNVJT",
+	"email": "abdimas.upn@gmail.com",
+	"website": "http://www.upnjatim.ac.id",
+	"orientation": "landscape",
+	"fullscreen": false,
+	"permissionTypes": [],
+	"icons": [],
+	"adaptiveIcons": [],
+	"preferences": [],
+	"plugins": [
+		{
+			"id": "cordova-plugin-inappbrowser",
+			"version": null,
+			"variables": []
+		},
+		{
+			"id": "cordova-plugin-fullscreen",
+			"version": null,
+			"variables": []
+		}
+	],
+	"resourceFiles": [],
+	"android": {
+		"min": "22",
+		"target": "32",
+		"engine": "11.0.0",
+		"plugins": []
+	},
+	"splash": null,
+	"splashBackground": "#ffffff",
+	"autoHideSplashScreen": false,
+	"iosScheme": "app",
+	"androidScheme": "https",
+	"enableAndroidX": false,
+	"enableGooglePlayServices": false,
+	"ios": null,
+	"useragent": null
+}
